@@ -21,7 +21,7 @@ function bookseat(){
      let price = Number(localStorage.getItem("amount"));
 
      let leftP = price-ded;
-      if(leftP<0){
+      if(leftP<100){
           alert("Insufficient Balance!")
       } else{
             alert("Booking successful!")
